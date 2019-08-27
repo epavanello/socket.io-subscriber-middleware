@@ -55,3 +55,9 @@ const action = {
 * `socket.subscribe.event` define the socket.io event to bind.
 * `socket.subscribe.handle` (optional) function callback called when the binded event is fired from server. The data is passed as first parameter.
 * `socket.subscribe.responseType` (optional) name of action type raised in redux with server data as payload.
+
+## Installation
+
+```
+npm i socket.io-subscriber-middleware
+```
