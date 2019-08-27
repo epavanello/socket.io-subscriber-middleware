@@ -1,0 +1,39 @@
+{
+  "name": "socket.io-subscriber-middleware",
+  "version": "1.0.0",
+  "description": "Redux middleware to emit actions to a socket.io server",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint lib/index.js",
+    "prebuild": "npm run lint",
+    "build": "babel lib --out-dir build",
+    "prepublish": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epavanello/socket.io-subscriber-middleware.git"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "socket.io",
+    "subscriber"
+  ],
+  "author": "Pavanello Emanuele <pavanello.emanuele@gmail.com> (http://pava.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epavanello/socket.io-subscriber-middleware/issues"
+  },
+  "homepage": "https://github.com/epavanello/socket.io-subscriber-middleware#readme",
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "5.0.0",
+    "babel-plugin-transform-es2015-arrow-functions": "6.5.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.7.0",
+    "eslint": "2.4.0",
+    "eslint-config-airbnb": "6.1.0",
+    "eslint-plugin-react": "4.2.3"
+  }
+}
