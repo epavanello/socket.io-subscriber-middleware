@@ -6,8 +6,7 @@
   "scripts": {
     "lint": "eslint lib/index.js",
     "prebuild": "npm run lint",
-    "build": "babel lib --out-dir build",
-    "prepublish": "npm run test"
+    "build": "babel lib --out-dir build"
   },
   "repository": {
     "type": "git",
